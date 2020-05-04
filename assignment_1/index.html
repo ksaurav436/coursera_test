@@ -1,9 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HI</title>
+	<meta charset="utf-8">
+	<title>assignment_module_2</title>
+	<style>
+	html{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	section{
+		float: left;
+		margin: 1px;
+		background: grey;
+		position: relative;
+		box-sizing: border-box;
+		border: 2px solid black;
+
+	}
+	h1{
+		text-align: center;
+	}
+	h3{
+		float: right;
+		text-align: center;
+		margin: 0px;
+		border: 1px solid black;
+		width: 100px
+	}
+	/*large device*/
+	@media (min-width: 992px){
+
+		section{
+			width: 33%
+		}
+	}
+	/*medium device*/
+	@media (max-width: 991px) and (min-width: 768px){
+
+		.first{
+			width: 49%
+		}
+	}
+	/*small device*/
+	</style>
 </head>
 <body>
-
+<h1>Our Menu</h1>
+<div>
+	<section class="first">
+	<h3 style="background-color: pink">Chicken</h3>
+	<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<section class="first">
+	<h3 style="background-color: red">Beef</h3>
+	<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<section>
+	<h3 style="background-color: yellow">Sushi</h3>
+	<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+</div>
 </body>
 </html>
